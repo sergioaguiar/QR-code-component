@@ -8,7 +8,7 @@ main {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-}    
+}    7
 
 h1 {
     color: hsl(218, 44%, 22%);
@@ -55,7 +55,7 @@ p {
     color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 475px) {
 
     .container {
         max-width: 85%;
