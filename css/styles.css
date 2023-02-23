@@ -1,18 +1,19 @@
 body {
     background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
+
 }
 
 main {
     display: flex;
-    justify-content: center;
     align-items: center;
-    min-height: 100vh;
-}    7
+    justify-content: center;
+    height: 100vh;
+}
 
 h1 {
     color: hsl(218, 44%, 22%);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
 }
 
@@ -25,7 +26,7 @@ img {
 
 p {
     color: hsl(220, 15%, 55%);
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 400;
 }
 
@@ -35,7 +36,7 @@ p {
     box-shadow: 0 20px 10px rgba(0, 0, 0, 0.01);
     margin: auto;
     text-align: center;
-    max-width: 25%;
+    width: 320px;
 }
 
 .text-container {
@@ -55,9 +56,9 @@ p {
     color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 550px) {
+/*@media (max-width: 375px) {
 
     .container {
         max-width: 85%;
     }
-}
+}*/
